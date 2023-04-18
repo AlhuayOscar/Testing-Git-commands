@@ -13,7 +13,7 @@ const Login = () => {
     switch (randomNum) {
       case 1:
         return () => {
-          if (username === "user1" && password === "123") {
+          if (username === "usuarioCorregido" && password === "123") {
             setIsLoggedIn(true);
           }
           console.log("Function 3");
