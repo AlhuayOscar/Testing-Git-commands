@@ -16,12 +16,12 @@ const Login = () => {
           if (username === "user1" && password === "123") {
             setIsLoggedIn(true);
           }
-          console.log("Function 1");
+          console.log("Function 4");
         };
       case 2:
-        return () => console.log("Function 2");
+        return () => console.log("Function 5");
       case 3:
-        return () => console.log("Function 3");
+        return () => console.log("Function 6");
       default:
         return () => console.log("Default Function");
     }
