@@ -19,7 +19,7 @@ const Login = () => {
           console.log("Function 4");
         };
       case 2:
-        return () => console.log("Function 5");
+        return () => console.log("function 25");
       case 3:
         return () => console.log("Function 6");
       default:
