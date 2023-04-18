@@ -33,6 +33,7 @@ const Login = () => {
   return (
     <div>
       <h1>ALGO</h1>
+      <h1>otra cosa:Alex</h1>
       <input
         type="text"
         value={username}
