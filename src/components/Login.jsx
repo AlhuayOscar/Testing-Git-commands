@@ -13,13 +13,13 @@ const Login = () => {
     switch (randomNum) {
       case 1:
         return () => {
-          if (username === "user1" && password === "123") {
+          if (username === "usuarioCorregido" && password === "123") {
             setIsLoggedIn(true);
-          }
-          console.log("Function 4");
+          } 
+          console.log("Function 3");
         };
       case 2:
-        return () => console.log("Function 5");
+        return () => console.log("Function 1");
       case 3:
         return () => console.log("esta no va");
       default:
