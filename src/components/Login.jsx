@@ -21,9 +21,9 @@ const Login = () => {
       case 2:
         return () => console.log("Function 5");
       case 3:
-        return () => console.log("Function 6");
+        return () => console.log("esta no va");
       default:
-        return () => console.log("Default Function");
+        return () => console.log("No es una default function");
     }
   }
 
