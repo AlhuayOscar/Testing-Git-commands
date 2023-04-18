@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  /*No necesitamos familia de fuentes, Utilizamos Imagenes de letras.*/
+  background: red;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
