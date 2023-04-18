@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Boton from "./buton"
+import Boton from "./buton";
 
 const Login = () => {
   // Definir los estados para el nombre de usuario y la contraseña
@@ -44,7 +44,11 @@ const Login = () => {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <Boton></Boton>
+      <Boton>
+        <iframe>
+          {/* Imagenes de gatitos */}
+        </iframe>
+      </Boton>
       <button onClick={handleLogin}>Login</button>
       {isLoggedIn && (
         <div className="popup">
@@ -56,4 +60,3 @@ const Login = () => {
 };
 
 export default Login;
-
