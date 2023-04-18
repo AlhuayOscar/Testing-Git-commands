@@ -15,7 +15,7 @@ const Login = () => {
         return () => {
           if (username === "usuarioCorregido" && password === "123") {
             setIsLoggedIn(true);
-          }
+          } 
           console.log("Function 3");
         };
       case 2:
